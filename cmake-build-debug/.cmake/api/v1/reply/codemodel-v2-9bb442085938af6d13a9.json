@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "prj.lab",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab-Debug-02d5af99ecd44d686785.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.lab"
+				},
+				{
+					"build" : "prj.lab/StackLst",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.StackLst-Debug-895c65eb3a218344aabd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/StackLst",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "prj.lab/StackArr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.StackArr-Debug-0aaadf4647b75990d395.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/StackArr",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "prj.lab/complex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.complex-Debug-705a58098cc186ba567d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/complex",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "prj.lab/rational",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.rational-Debug-9a0fef8a382ffefe6868.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/rational",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "prj.lab/dynarr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.dynarr-Debug-5f6c36e360d82017c869.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/dynarr",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "prj.test",
+					"jsonFile" : "directory-prj.test-Debug-8d06470f3d57bfdcb843.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.test",
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "misis2024s-23-09-karimov-a-t",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "StackArr::@732b672e820ac9f0582b",
+					"jsonFile" : "target-StackArr-Debug-6812fc8751295ca92cf9.json",
+					"name" : "StackArr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "StackLst::@e51bcbe6d0af41d00501",
+					"jsonFile" : "target-StackLst-Debug-05cf385c944865f83cf3.json",
+					"name" : "StackLst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "complex::@f01986494a78af0cc1db",
+					"jsonFile" : "target-complex-Debug-005e920504e17947b575.json",
+					"name" : "complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "complex_test::@03e42033715ba8c02d37",
+					"jsonFile" : "target-complex_test-Debug-452574c7416e568ffbe2.json",
+					"name" : "complex_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "dynarr::@0ea11cdcf82ac2213dcb",
+					"jsonFile" : "target-dynarr-Debug-75a846936717012a9589.json",
+					"name" : "dynarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "dynarr_test::@03e42033715ba8c02d37",
+					"jsonFile" : "target-dynarr_test-Debug-5b5f711b1e6b703d9c80.json",
+					"name" : "dynarr_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rational::@fd4f4962d1a8e6d13fee",
+					"jsonFile" : "target-rational-Debug-8f0d456d7f61cc6b45ad.json",
+					"name" : "rational",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "rational_test::@03e42033715ba8c02d37",
+					"jsonFile" : "target-rational_test-Debug-5faad92fb95cf2ddf4b9.json",
+					"name" : "rational_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_StackArr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_StackArr-Debug-bfc8fad5ab9fe0ed7db2.json",
+					"name" : "test_StackArr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_StackLst::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_StackLst-Debug-91e8afc3f8fe35e639e6.json",
+					"name" : "test_StackLst",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug",
+		"source" : "C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

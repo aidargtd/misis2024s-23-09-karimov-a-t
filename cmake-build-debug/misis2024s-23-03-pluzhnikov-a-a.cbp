@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="misis2024s-23-03-pluzhnikov-a-a"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\prj.lab\;CMake Files\prj.lab\StackLst\;CMake Files\prj.lab\StackArr\;CMake Files\prj.lab\complex\;CMake Files\prj.lab\rational\;CMake Files\prj.lab\dynarr\;CMake Files\prj.test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLst">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/libStackLst.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackLst/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 StackLst"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLst/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/libStackLst.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackLst/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 StackLst/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackLst/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackArr">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/libStackArr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackArr/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 StackArr"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackArr/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/libStackArr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackArr/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 StackArr/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/StackArr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/libcomplex.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 complex"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/libcomplex.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 complex/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rational">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/librational.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/rational/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 rational"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rational/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/librational.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/rational/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 rational/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynarr">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/libdynarr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/dynarr/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 dynarr"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynarr/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/libdynarr.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/dynarr/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 dynarr/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.lab/dynarr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_StackArr">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/test_StackArr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackArr/.."/>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 test_StackArr"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_StackArr/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/test_StackArr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackArr/.."/>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 test_StackArr/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex_test">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/complex_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 complex_test"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex_test/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/complex_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 complex_test/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rational_test">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/rational_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/rational/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 rational_test"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rational_test/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/rational_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/rational/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 rational_test/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynarr_test">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/dynarr_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/dynarr/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 dynarr_test"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynarr_test/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/dynarr_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/dynarr/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 dynarr_test/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_StackLst">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/test_StackLst.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackLst/.."/>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 test_StackLst"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_StackLst/fast">
+				<Option output="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/bin.dbg/test_StackLst.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackLst/.."/>
+					<Add directory="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/.."/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 test_StackLst/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/cmake-build-debug/prj.test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackArr/StackArr.cpp">
+			<Option target="StackArr"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackArr/StackArr.h">
+			<Option target="StackArr"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackLst/StackLst.cpp">
+			<Option target="StackLst"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackLst/StackLst.h">
+			<Option target="StackLst"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/complex.cpp">
+			<Option target="complex"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/complex.hpp">
+			<Option target="complex"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/dynarr/dynarr.cpp">
+			<Option target="dynarr"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/dynarr/dynarr.hpp">
+			<Option target="dynarr"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/rational/rational.cpp">
+			<Option target="rational"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/rational/rational.hpp">
+			<Option target="rational"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.test/complex_test.cpp">
+			<Option target="complex_test"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.test/dynarr_test.cpp">
+			<Option target="dynarr_test"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.test/rational_test.cpp">
+			<Option target="rational_test"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.test/test_StackArr.cpp">
+			<Option target="StackArr"/>
+			<Option target="test_StackArr"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.test/test_StackLst.cpp">
+			<Option target="test_StackLst"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackLst/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\StackLst\"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/StackArr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\StackArr\"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/complex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\complex\"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/rational/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\rational\"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.lab/dynarr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\dynarr\"/>
+		</Unit>
+		<Unit filename="C:/Users/karim/Desktop/misis2024s-23-03-pluzhnikov-a-a-master/prj.test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

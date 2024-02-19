@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc libcomplex.a CMakeFiles/complex.dir/complex.cpp.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ranlib.exe libcomplex.a
