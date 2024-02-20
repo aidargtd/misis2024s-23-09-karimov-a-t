@@ -1,4 +1,4 @@
-CHECK: 20240220-080341
+CHECK: 20240220-200552
 ERROR: file codeforces.id is absent
 ERROR: folder misis2024s-23-09-karimov-a-t/prj.codeforces is absent
 ERROR: file prj.codeforces/CMakeLists.txt is absent
@@ -11,3 +11,4 @@ ERROR: lab rational_io - test build failed
 ERROR: lab dynarr - test build failed
 ERROR: lab stackarr - test build failed
 ERROR: lab stacklst - test build failed
+ERROR: lab queuelst - test build failed
