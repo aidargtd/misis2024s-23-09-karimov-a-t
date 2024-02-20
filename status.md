@@ -1,8 +1,7 @@
-CHECK: 20240219-074256
+CHECK: 20240220-080341
 ERROR: file codeforces.id is absent
 ERROR: folder misis2024s-23-09-karimov-a-t/prj.codeforces is absent
 ERROR: file prj.codeforces/CMakeLists.txt is absent
-ERROR: file prj.test/CMakeLists.txt is absent
 ERROR: file prj.lab/rational/CMakeLists.txt is absent
 ERROR: CMake generator failed
 ERROR: lab complex - test build failed
