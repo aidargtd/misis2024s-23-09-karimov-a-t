@@ -1,16 +1,6 @@
 # ninja log v5
-2	708	1707689061581071206	prj.lab/StackArr/CMakeFiles/StackArr.dir/__/__/prj.test/test_StackArr.cpp.o	2a869308c56d6c81
-664	804	1707328917769931960	misis2024s_23_03_pluzhnikov_a_a	c6dc94eb853d1bc8
-1	663	1707328917630935429	CMakeFiles/misis2024s_23_03_pluzhnikov_a_a.dir/prj.lab/StackArr.cpp.o	3499cf145ea523f8
-0	81	1707689143192209393	build.ninja	2a507d8df81010d9
-1	748	1707689061622070294	prj.lab/StackArr/CMakeFiles/StackArr.dir/StackArr.cpp.o	221d954a427c5906
-1074	1219	1707689062090059881	prj.test/bin.dbg/test_StackArr	c2247140b30a29e5
-748	775	1707689061649069693	prj.lab/StackArr/libStackArr.a	d9d8c2dd3f208d49
-3	1074	1707689061948063041	prj.test/CMakeFiles/test_StackArr.dir/test_StackArr.cpp.o	f55f26a36cfc68ed
-2	783	1707689341336574436	prj.lab/StackArr/CMakeFiles/StackArr.dir/StackArr.cpp.o	221d954a427c5906
-3	788	1707689341342574300	prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o	ceca7a06300660ef
-788	813	1707689341367573733	prj.lab/complex/libcomplex.a	39c33052c0086b05
-3	6248	1707689346794450603	prj.test/CMakeFiles/test_StackArr.dir/test_StackArr.cpp.o	8174f0ed28322f6f
-2	6315	1707689346862449061	prj.lab/StackArr/CMakeFiles/StackArr.dir/__/__/prj.test/test_StackArr.cpp.o	2a869308c56d6c81
-6315	6380	1707689346926447608	prj.lab/StackArr/libStackArr.a	d9d8c2dd3f208d49
-6380	6636	1707689347184441755	prj.test/bin.dbg/test_StackArr	e07d5d152f4c82ca
+7	612	7306627018276132	prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.obj	145f53fb7a909160
+6	600	7306627077839025	prj.lab/complex/CMakeFiles/complex.dir/__/__/prj.test/complex_test.cpp.obj	f68feab28fc5b5c0
+10	751	7306627079355418	prj.test/CMakeFiles/complex_test.dir/complex_test.cpp.obj	be02776b34ea6b46
+600	812	7306627079954803	prj.lab/complex/libcomplex.a	42a858d7bce99a82
+812	1124	7306627083032054	prj.test/bin.dbg/complex_test.exe	2dceb192a1df818b
