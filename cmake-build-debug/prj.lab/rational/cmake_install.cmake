@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/karim/misis2024s-23-09-karimov-a-t/prj.lab
+# Install script for directory: C:/Users/karim/misis2024s-23-09-karimov-a-t/prj.lab/rational
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,13 +37,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.3/bin/mingw/bin/objdump.exe")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/complex/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/rational/cmake_install.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/rational/librational.a")
 endif()
 

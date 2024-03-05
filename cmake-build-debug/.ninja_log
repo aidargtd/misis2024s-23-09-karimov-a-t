@@ -1,6 +1,10 @@
 # ninja log v5
 7	612	7306627018276132	prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.obj	145f53fb7a909160
+812	1124	7306627083032054	prj.test/bin.dbg/complex_test.exe	2dceb192a1df818b
 6	600	7306627077839025	prj.lab/complex/CMakeFiles/complex.dir/__/__/prj.test/complex_test.cpp.obj	f68feab28fc5b5c0
 10	751	7306627079355418	prj.test/CMakeFiles/complex_test.dir/complex_test.cpp.obj	be02776b34ea6b46
 600	812	7306627079954803	prj.lab/complex/libcomplex.a	42a858d7bce99a82
-812	1124	7306627083032054	prj.test/bin.dbg/complex_test.exe	2dceb192a1df818b
+0	1142	7313269893161633	prj.lab/rational/CMakeFiles/rational.dir/rational.cpp.obj	49a991732c562999
+5	228	7313272147422117	prj.lab/rational/librational.a	5327735bef782305
+5	575	7313279339668309	prj.test/CMakeFiles/rational_test.dir/rational_test.cpp.obj	5acde9ce9bf00c97
+576	1302	7313279346842792	prj.test/bin.dbg/rational_test.exe	b176c862ace50497
