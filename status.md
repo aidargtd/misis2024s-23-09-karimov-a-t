@@ -1,4 +1,9 @@
-CHECK: 20240312-184512
+CHECK: 20240318-122004
+ERROR: file codeforces.id is absent
+ERROR: folder misis2024s-23-09-karimov-a-t/prj.codeforces is absent
+ERROR: file prj.codeforces/CMakeLists.txt is absent
+OK: CMake generator successed
+OK: CMake build (MSVC x64) successed
 STATUS: lab complex - test-ok
 STATUS: lab complex_io - test-ok
 STATUS: lab complex_m - test-ok
