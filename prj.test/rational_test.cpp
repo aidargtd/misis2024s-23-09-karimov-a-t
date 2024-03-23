@@ -13,6 +13,11 @@ void test_rational() {
     assert(3 == r_int.num());
     assert(1 == r_int.den());
 
+    // Test unary operator
+    Rational r(3);
+    Rational r_neg = -r;
+    assert(-3 == r_neg.num());
+    assert(-3 == +r_neg.num());
     // Test constructor with numerator and denominator arguments
     try {
         Rational r_invalid(1, 0);

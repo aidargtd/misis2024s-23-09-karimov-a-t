@@ -15,7 +15,6 @@ public:
     Rational(const int64_t &num, const int64_t &den);
 
 
-
     [[nodiscard]] int64_t num() const { return num_; }
 
     [[nodiscard]] int64_t den() const { return den_; }
@@ -44,7 +43,20 @@ public:
     ~Rational() = default;
 
     std::ostream &Write(std::ostream &ostrm) const;
+
     std::istream &Read(std::istream &istrm);
+
+    Rational operator-();
+
+    Rational operator+();
+
+    Rational operator++();
+
+    Rational operator--();
+
+    Rational operator++(int);
+
+    Rational operator--(int);
 
 private:
     int64_t num_ = 0;
@@ -73,44 +85,64 @@ inline std::istream &operator>>(std::istream &istr, Rational &rhs) {
 
 
 Rational operator+(const Rational &lhs, const Rational &rhs);
+
 Rational operator+(const Rational &lhs, const int64_t rhs);
+
 Rational operator+(const int64_t lhs, const Rational &rhs);
 
 Rational operator-(const Rational &lhs, const Rational &rhs);
+
 Rational operator-(const Rational &lhs, const int64_t rhs);
+
 Rational operator-(const int64_t lhs, const Rational &rhs);
 
 Rational operator*(const Rational &lhs, const Rational &rhs);
+
 Rational operator*(const Rational &lhs, const int64_t rhs);
+
 Rational operator*(const int64_t lhs, const Rational &rhs);
 
 Rational operator/(const Rational &lhs, const Rational &rhs);
+
 Rational operator/(const Rational &lhs, const int64_t rhs);
+
 Rational operator/(const int64_t lhs, const Rational &rhs);
 
 bool operator<(const Rational &lhs, const Rational &rhs);
+
 bool operator<(const int64_t lhs, const Rational &rhs);
+
 bool operator<(const Rational &lhs, const int64_t rhs);
 
 bool operator>(const Rational &lhs, const Rational &rhs);
+
 bool operator>(const int64_t lhs, const Rational &rhs);
+
 bool operator>(const Rational &lhs, const int64_t rhs);
 
 bool operator<=(const Rational &lhs, const Rational &rhs);
+
 bool operator<=(const int64_t lhs, const Rational &rhs);
+
 bool operator<=(const Rational &lhs, const int64_t rhs);
 
 bool operator>=(const Rational &lhs, const Rational &rhs);
+
 bool operator>=(const int64_t lhs, const Rational &rhs);
+
 bool operator>=(const Rational &lhs, const int64_t rhs);
 
 
 bool operator==(const Rational &lhs, const Rational &rhs);
+
 bool operator==(const int64_t lhs, const Rational &rhs);
+
 bool operator==(const Rational &lhs, const int64_t rhs);
 
 bool operator!=(const Rational &lhs, const Rational &rhs);
+
 bool operator!=(const int64_t lhs, const Rational &rhs);
+
 bool operator!=(const Rational &lhs, const int64_t rhs);
 
 #endif

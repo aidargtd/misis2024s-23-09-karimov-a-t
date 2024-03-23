@@ -2,7 +2,7 @@
 #include <stdexcept>
 
 
-Rational gcd1(const Rational rhs){
+Rational gcd1(const Rational &rhs) {
     int64_t a = rhs.num(), b = rhs.den();
     if (a < b) {
         std::swap(a, b);
@@ -17,10 +17,10 @@ Rational gcd1(const Rational rhs){
 
 
 Rational::Rational(const int64_t &num, const int64_t &den) : num_(num), den_(den) {
-    if (den_ == 0){
+    if (den_ == 0) {
         throw std::invalid_argument("Div by zero");
     }
-    if (den_ < 0){
+    if (den_ < 0) {
         den_ = -den_;
         num_ = -num_;
     }
@@ -31,6 +31,7 @@ std::ostream &Rational::Write(std::ostream &ostrm) const {
     ostrm << num_ << separator << den_;
     return ostrm;
 }
+
 
 Rational Rational::operator*=(const Rational &rhs) {
     num_ *= rhs.num_;
@@ -71,31 +72,68 @@ Rational Rational::operator/=(const Rational &rhs) {
 }
 
 
-Rational operator+(const Rational& lhs, const Rational &rhs)
-{
+Rational operator+(const Rational &lhs, const Rational &rhs) {
     return gcd1(Rational(lhs.num() * rhs.den() + rhs.num() * lhs.den(), lhs.den() * rhs.den()));
 }
-Rational operator+(const Rational& lhs, const int64_t rhs) { return lhs + Rational(rhs); }
-Rational operator+(const int64_t lhs, const Rational& rhs) { return Rational(lhs) + rhs; }
 
-Rational operator-(const Rational& lhs, const Rational &rhs){
+Rational operator+(const Rational &lhs, const int64_t rhs) { return lhs + Rational(rhs); }
+
+Rational operator+(const int64_t lhs, const Rational &rhs) { return Rational(lhs) + rhs; }
+
+Rational operator-(const Rational &lhs, const Rational &rhs) {
     return gcd1(Rational(lhs.num() * rhs.den() - rhs.num() * lhs.den(), lhs.den() * rhs.den()));
 }
-Rational operator-(const Rational& lhs, const int64_t rhs) { return lhs - Rational(rhs); }
-Rational operator-(const int64_t lhs, const Rational& rhs) { return Rational(lhs) - rhs; }
 
-Rational operator*(const Rational& lhs, const Rational &rhs){
+Rational operator-(const Rational &lhs, const int64_t rhs) { return lhs - Rational(rhs); }
+
+Rational operator-(const int64_t lhs, const Rational &rhs) { return Rational(lhs) - rhs; }
+
+Rational operator*(const Rational &lhs, const Rational &rhs) {
     return gcd1(Rational(lhs.num() * rhs.num(), lhs.den() * rhs.den()));
 }
-Rational operator*(const Rational& lhs, const int64_t rhs) { return lhs * Rational(rhs); }
-Rational operator*(const int64_t lhs, const Rational& rhs) { return Rational(lhs) * rhs; }
 
-Rational operator/(const Rational& lhs, const Rational &rhs){
+Rational operator*(const Rational &lhs, const int64_t rhs) { return lhs * Rational(rhs); }
+
+Rational operator*(const int64_t lhs, const Rational &rhs) { return Rational(lhs) * rhs; }
+
+Rational operator/(const Rational &lhs, const Rational &rhs) {
     if (lhs.num() == 0) throw std::invalid_argument("Div by zero");
     return gcd1(Rational(lhs.num() * rhs.den(), lhs.den() * rhs.num()));
 }
-Rational operator/(const Rational& lhs, const int64_t rhs) { return lhs / Rational(rhs); }
-Rational operator/(const int64_t lhs, const Rational& rhs) { return Rational(lhs) / rhs; }
+
+Rational operator/(const Rational &lhs, const int64_t rhs) { return lhs / Rational(rhs); }
+
+Rational operator/(const int64_t lhs, const Rational &rhs) { return Rational(lhs) / rhs; }
+
+Rational Rational::operator-() {
+    return {-num_, den_};
+}
+
+Rational Rational::operator+() {
+    return *this;
+}
+
+Rational Rational::operator++() {
+    num_ += den_;
+    return *this;
+}
+
+Rational Rational::operator++(int) {
+    Rational temp = *this;
+    ++(*this);
+    return temp;
+}
+
+Rational Rational::operator--() {
+    num_ -= den_;
+    return *this;
+}
+
+Rational Rational::operator--(int) {
+    Rational temp = *this;
+    --(*this);
+    return temp;
+}
 
 
 std::istream &Rational::Read(std::istream &istrm) {
@@ -103,16 +141,12 @@ std::istream &Rational::Read(std::istream &istrm) {
     char comma(0);
     int64_t den(1.0);
     istrm >> num >> comma >> den;
-    if (istrm.good())
-    {
-        if (Rational::separator == comma)
-        {
+    if (istrm.good()) {
+        if (Rational::separator == comma) {
             num_ = num;
             den_ = den;
             simplifying();
-        }
-        else
-        {
+        } else {
             istrm.setstate(std::ios_base::failbit);
         }
     }
@@ -127,43 +161,56 @@ Rational &Rational::operator=(const Rational &rhs) {
 }
 
 
-bool operator<(const Rational& lhs, const Rational& rhs) {
+bool operator<(const Rational &lhs, const Rational &rhs) {
     if (lhs.num() == 0) return rhs.num() > 0;
     else if (rhs.num() == 0) return lhs.num() < 0;
     else if (lhs == rhs) return false;
     return lhs.num() * rhs.den() < lhs.den() * rhs.num();
 }
-bool operator<(const Rational& lhs, const int64_t rhs) { return lhs < Rational(rhs); }
-bool operator<(const int64_t lhs, const Rational& rhs) { return Rational(lhs) < rhs; }
 
-bool operator<=(const Rational& lhs, const Rational& rhs){
+bool operator<(const Rational &lhs, const int64_t rhs) { return lhs < Rational(rhs); }
+
+bool operator<(const int64_t lhs, const Rational &rhs) { return Rational(lhs) < rhs; }
+
+bool operator<=(const Rational &lhs, const Rational &rhs) {
     return lhs < rhs || lhs == rhs;
 }
-bool operator<=(const Rational& lhs, const int64_t rhs) { return lhs <= Rational(rhs); }
-bool operator<=(const int64_t lhs, const Rational& rhs) { return Rational(lhs) <= rhs; }
 
-bool operator>=(const Rational& lhs, const Rational& rhs){
+bool operator<=(const Rational &lhs, const int64_t rhs) { return lhs <= Rational(rhs); }
+
+bool operator<=(const int64_t lhs, const Rational &rhs) { return Rational(lhs) <= rhs; }
+
+bool operator>=(const Rational &lhs, const Rational &rhs) {
     return !(lhs < rhs) || lhs == rhs;
 }
-bool operator>=(const Rational& lhs, const int64_t rhs) { return lhs >= Rational(rhs); }
-bool operator>=(const int64_t lhs, const Rational& rhs) { return Rational(lhs) >= rhs; }
 
-bool operator>(const Rational& lhs, const Rational& rhs){
+bool operator>=(const Rational &lhs, const int64_t rhs) { return lhs >= Rational(rhs); }
+
+bool operator>=(const int64_t lhs, const Rational &rhs) { return Rational(lhs) >= rhs; }
+
+bool operator>(const Rational &lhs, const Rational &rhs) {
     if (lhs == rhs) return false;
     return !(lhs < rhs);
 }
-bool operator>(const Rational& lhs, const int64_t rhs) { return lhs > Rational(rhs); }
-bool operator>(const int64_t lhs, const Rational& rhs) { return Rational(lhs) > rhs; }
 
-bool operator==(const Rational& lhs, const Rational& rhs){
+bool operator>(const Rational &lhs, const int64_t rhs) { return lhs > Rational(rhs); }
+
+bool operator>(const int64_t lhs, const Rational &rhs) { return Rational(lhs) > rhs; }
+
+bool operator==(const Rational &lhs, const Rational &rhs) {
     Rational a = gcd1(lhs), b = gcd1(rhs);
     return (a.num() == b.num()) && (a.den() == b.den());
 }
-bool operator==(const Rational& lhs, const int64_t rhs) { return lhs == Rational(rhs); }
-bool operator==(const int64_t lhs, const Rational& rhs) { return Rational(lhs) == rhs; }
 
-bool operator!=(const Rational& lhs, const Rational& rhs){
+bool operator==(const Rational &lhs, const int64_t rhs) { return lhs == Rational(rhs); }
+
+bool operator==(const int64_t lhs, const Rational &rhs) { return Rational(lhs) == rhs; }
+
+bool operator!=(const Rational &lhs, const Rational &rhs) {
     return !operator==(lhs, rhs);
 }
-bool operator!=(const Rational& lhs, const int64_t rhs) { return lhs != Rational(rhs); }
-bool operator!=(const int64_t lhs, const Rational& rhs) { return Rational(lhs) != rhs; }
+
+bool operator!=(const Rational &lhs, const int64_t rhs) { return lhs != Rational(rhs); }
+
+bool operator!=(const int64_t lhs, const Rational &rhs) { return Rational(lhs) != rhs; }
+
