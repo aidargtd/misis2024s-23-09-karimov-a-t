@@ -1,15 +1,11 @@
-CHECK: 20240318-122004
+CHECK: 20240325-003553
 ERROR: file codeforces.id is absent
-ERROR: folder misis2024s-23-09-karimov-a-t/prj.codeforces is absent
-ERROR: file prj.codeforces/CMakeLists.txt is absent
-OK: CMake generator successed
-OK: CMake build (MSVC x64) successed
-STATUS: lab complex - test-ok
-STATUS: lab complex_io - test-ok
-STATUS: lab complex_m - test-ok
-STATUS: lab rational - test-failed
-STATUS: lab rational_io - test-failed
-STATUS: lab rational_m - test-ok
+ERROR: lab complex - test build failed
+ERROR: lab complex_io - test build failed
+ERROR: lab complex_m - test build failed
+ERROR: lab rational - test build failed
+ERROR: lab rational_io - test build failed
+ERROR: lab rational_m - test build failed
 ERROR: lab dynarr - test build failed
 ERROR: lab dynarr_m - test build failed
 ERROR: lab stackarr - test build failed
@@ -22,3 +18,5 @@ ERROR: lab queuelst - test build failed
 ERROR: lab queuelst_m - test build failed
 ERROR: lab queuelstpr - test build failed
 ERROR: lab queuelstpr_m - test build failed
+ERROR: lab bitset - test build failed
+ERROR: lab bitset_m - test build failed
