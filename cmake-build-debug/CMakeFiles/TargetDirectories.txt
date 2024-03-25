@@ -24,8 +24,16 @@ C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/rational/C
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/rational/CMakeFiles/install.dir
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/rational/CMakeFiles/install/local.dir
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/rational/CMakeFiles/install/strip.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/dynarr/CMakeFiles/dynarr.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/dynarr/CMakeFiles/edit_cache.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/dynarr/CMakeFiles/rebuild_cache.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/dynarr/CMakeFiles/list_install_components.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/dynarr/CMakeFiles/install.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/dynarr/CMakeFiles/install/local.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.lab/dynarr/CMakeFiles/install/strip.dir
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.test/CMakeFiles/complex_test.dir
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.test/CMakeFiles/rational_test.dir
+C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.test/CMakeFiles/dynarr_test.dir
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.test/CMakeFiles/edit_cache.dir
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.test/CMakeFiles/rebuild_cache.dir
 C:/Users/karim/misis2024s-23-09-karimov-a-t/cmake-build-debug/prj.test/CMakeFiles/list_install_components.dir
