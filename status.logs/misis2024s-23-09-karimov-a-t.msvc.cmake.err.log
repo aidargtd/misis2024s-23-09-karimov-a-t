@@ -1,12 +1,15 @@
-CMake Error at CMakeLists.txt:3 (project):
-  Running
+CMake Error at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:598 (_add_executable):
+  Cannot find source file:
 
-   'nmake' '-?'
-
-  failed with:
-
-   Не удается найти указанный файл
+    rational_test.cpp
+Call Stack (most recent call first):
+  prj.test/CMakeLists.txt:6 (add_executable)
 
 
-CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
-CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+CMake Error at D:/programs/vcpkg/scripts/buildsystems/vcpkg.cmake:598 (_add_executable):
+  No SOURCES given to target: rational_test
+Call Stack (most recent call first):
+  prj.test/CMakeLists.txt:6 (add_executable)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
