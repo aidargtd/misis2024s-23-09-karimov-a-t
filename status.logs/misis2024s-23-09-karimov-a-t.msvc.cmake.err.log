@@ -1,0 +1,12 @@
+CMake Error at CMakeLists.txt:3 (project):
+  Running
+
+   'nmake' '-?'
+
+  failed with:
+
+   Не удается найти указанный файл
+
+
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
