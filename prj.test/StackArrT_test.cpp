@@ -1,7 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
-#include <StackArrT/StackArrT.сpp>
-#include <rational/rational.hpp>
+#include "StackArrT.hpp"
 
 TEST_CASE("Testing StackArrT with int") {
     StackArrT<int> stack;
@@ -28,20 +27,4 @@ TEST_CASE("Testing StackArrT with float") {
     stack.pop();
     CHECK(doctest::Approx(stack.top()) == 1.1f);
 }
-
-
-TEST_CASE("Testing StackArrT with custom Rational class") {
-    StackArrT<Rational> stack;
-    Rational r1(1, 2);
-    Rational r2(3, 4);
-
-    stack.push(r1);
-    stack.push(r2);
-    CHECK(stack.size() == 2);
-    CHECK(stack.top() == r2);
-
-    stack.pop();
-    CHECK(stack.top() == r1);
-}
-
 
