@@ -1,69 +1,46 @@
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+//unittest
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 #include "StackArrT/StackArrT.hpp"
+//#include <initializer_list>
 
+TEST_CASE_TEMPLATE("t, f & r", T, int, float, double, long long, long, std::int64_t) {
+    StackArrT<T> f;
+    CHECK(f.empty());
+    StackArrT<T> t(f);
+    CHECK(t.empty());
+    CHECK_THROWS(void(t.pop()));
+    CHECK_THROWS(void(t.top()));
+    f.push(7);
+    f.push(8);
+    CHECK(f.size() == 2);
+    StackArrT <T> r(f);
+    CHECK(r.size() == 2);
+    CHECK(r.top() == 8);
+    r.pop();
+    CHECK(r.top() == 7);
+    r.pop();
+    CHECK(r.empty());
+    r = f;
+    CHECK(r == f);
+    r.pop();
+    CHECK(r != f);
+}
 
-TEST_CASE_TEMPLATE("Testing StackArrT functionality", T, int, float, double, long long) {
-    StackArrT<T> stack;
+TEST_CASE("x, y, z & a") {
+    std::initializer_list<double> x = { 6.0, 2.3, 6.1, 3.6 };
+    StackArrT<double> y(x);
+    CHECK(y.size() == 4);
+    CHECK(y.top() == 3.6);
+    std::initializer_list<double> a = { 2.2, 6.2, 2.3, 8.2, 6.3, 7.2 };
+    StackArrT<double> z = a;
+    CHECK(y != z);
+    y.swap(z);
+    CHECK(y.top() == 7.2);
+    CHECK(y.size() == 6);
+    y.merge(z);
+    CHECK(z.empty());
+    CHECK(y.size() == 10);
+    CHECK(y.top() == 3.6);
 
-    SUBCASE("Newly created stack is empty") {
-        CHECK(stack.empty());
-        CHECK(stack.size()==0);
-    }
-
-    SUBCASE("Push and top operations") {
-        stack.push(1);
-        CHECK(stack.top() == 1);
-        CHECK(stack.empty() == false);
-        CHECK(stack.size() == 1);
-
-        stack.push(2);
-        CHECK(stack.top() == 2);
-        CHECK(stack.size() == 2);
-    }
-
-    SUBCASE("Pop operation") {
-        stack.push(1);
-        stack.push(2);
-        stack.pop();
-        CHECK(stack.top() == 1);
-        CHECK(stack.size() == 1);
-    }
-
-    SUBCASE("Copy constructor") {
-        stack.push(1);
-        stack.push(2);
-        StackArrT<T> stackCopy(stack);
-        CHECK(stackCopy.size() == 2);
-        CHECK(stackCopy.top() == 2);
-
-        stack.pop();
-        stack.pop(); // Clear the original stack
-        // Ensure the copy is independent
-        CHECK(stackCopy.size() == 2);
-        CHECK(stackCopy.top() == 2);
-    }
-
-    SUBCASE("Move constructor") {
-        stack.push(1);
-        stack.push(2);
-        StackArrT<T> stackMoved(std::move(stack));
-        CHECK(stackMoved.size() == 2);
-        CHECK(stackMoved.top() == 2);
-        // Original stack should be empty after the move
-        CHECK(stack.empty() == true);
-    }
-
-    SUBCASE("Equality and inequality operators") {
-        StackArrT<T> stack1;
-        StackArrT<T> stack2;
-        stack1.push(1);
-        stack2.push(1);
-
-        CHECK(stack1 == stack2);
-
-        stack2.push(2);
-        CHECK(stack1 != stack2);
-    }
 }
