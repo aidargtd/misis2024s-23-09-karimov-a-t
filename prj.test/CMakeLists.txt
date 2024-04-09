@@ -10,8 +10,7 @@ add_executable(dynarr_test dynarr_test.cpp)
 target_link_libraries(dynarr_test dynarr)
 
 add_executable(StackArrT_test StackArrT_test.cpp)
-target_include_directories(StackArrT_test PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/../prj.lab/StackArrT)
+target_include_directories(StackArrT_test StackArrT)
 
 
 
