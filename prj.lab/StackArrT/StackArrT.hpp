@@ -109,3 +109,5 @@ private:
     std::ptrdiff_t i_top_;
     T* data_;
 };
+
+#endif

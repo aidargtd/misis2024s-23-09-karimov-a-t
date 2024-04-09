@@ -1,17 +1,15 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
-#include <StackArrT/StackArrT.hpp>
-#include <complex/complex.hpp>
-#include <rational/rational.hpp>
+#include "StackArrT/StackArrT.hpp"
 
 
 TEST_CASE_TEMPLATE("Testing StackArrT functionality", T, int, float, double, long long) {
     StackArrT<T> stack;
 
     SUBCASE("Newly created stack is empty") {
-        CHECK(stack.empty() == true);
-        CHECK(stack.size() == 0);
+        CHECK(stack.empty());
+        CHECK(stack.size()==0);
     }
 
     SUBCASE("Push and top operations") {
