@@ -17,4 +17,6 @@ add_executable(DoubleListQueue_test DoubleListQueue_test.cpp)
 target_link_libraries(DoubleListQueue_test DoubleListQueue)
 
 
+add_executable(StackLstT_test StackLstT_test.cpp)
+target_link_libraries(StackLstT_test StackLstT)
 
