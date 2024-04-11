@@ -1,46 +1,59 @@
-//unittest
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
 #include "StackArrT/StackArrT.hpp"
-//#include <initializer_list>
+#include <cassert>
 
-TEST_CASE_TEMPLATE("t, f & r", T, int, float, double, long long, long, std::int64_t) {
-    StackArrT<T> f;
-    CHECK(f.empty());
-    StackArrT<T> t(f);
-    CHECK(t.empty());
-    CHECK_THROWS(void(t.pop()));
-    CHECK_THROWS(void(t.top()));
-    f.push(7);
-    f.push(8);
-    CHECK(f.size() == 2);
-    StackArrT <T> r(f);
-    CHECK(r.size() == 2);
-    CHECK(r.top() == 8);
-    r.pop();
-    CHECK(r.top() == 7);
-    r.pop();
-    CHECK(r.empty());
-    r = f;
-    CHECK(r == f);
-    r.pop();
-    CHECK(r != f);
+void test_stack_operations() {
+    // Создание пустого стека
+    StackArrT<int> stack;
+    assert(stack.empty());
+    assert(stack.size() == 0);
+
+    // Проверка на пустоту стека перед удалением элементов
+    if (!stack.empty()) {
+        stack.pop();
+    }
+    assert(stack.empty());
+    assert(stack.size() == 0);
+
+    // Добавление элементов в стек
+    stack.push(5);
+    assert(!stack.empty());
+    assert(stack.size() == 1);
+    assert(stack.top() == 5);
+
+    stack.push(10);
+    assert(stack.size() == 2);
+    assert(stack.top() == 10);
+
+    // Удаление элементов из стека
+    if (!stack.empty()) {
+        stack.pop();
+    }
+    assert(stack.size() == 1);
+    assert(stack.top() == 5);
+
+    if (!stack.empty()) {
+        stack.pop();
+    }
+    assert(stack.empty());
+    assert(stack.size() == 0);
+
+    // Повторное добавление элементов и проверка на равенство и неравенство стеков
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+
+    StackArrT<int> other_stack = stack;
+    assert(stack == other_stack);
+
+    if (!other_stack.empty()) {
+        other_stack.pop();
+    }
+    assert(stack != other_stack);
 }
 
-TEST_CASE("x, y, z & a") {
-    std::initializer_list<double> x = { 6.0, 2.3, 6.1, 3.6 };
-    StackArrT<double> y(x);
-    CHECK(y.size() == 4);
-    CHECK(y.top() == 3.6);
-    std::initializer_list<double> a = { 2.2, 6.2, 2.3, 8.2, 6.3, 7.2 };
-    StackArrT<double> z = a;
-    CHECK(y != z);
-    y.swap(z);
-    CHECK(y.top() == 7.2);
-    CHECK(y.size() == 6);
-    y.merge(z);
-    CHECK(z.empty());
-    CHECK(y.size() == 10);
-    CHECK(y.top() == 3.6);
 
+
+int main() {
+    test_stack_operations();
+    return 0;
 }

@@ -56,10 +56,12 @@ public:
         data_ = newData;
         size_ = newSize;
         i_top_ = size_ - 1;
+        other.size_ = 0; // Устанавливаем размер other в 0, чтобы он стал пустым
+        other.i_top_ = -1; // Устанавливаем i_top_ other в -1, чтобы он стал пустым
     }
 
     [[nodiscard]] bool empty() const {
-        return i_top_ == -1;
+        return size_ == 0; // Если размер стека равен 0, значит, он пуст
     }
 
     [[nodiscard]] std::ptrdiff_t size() const {
