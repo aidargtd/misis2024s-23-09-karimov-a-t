@@ -26,17 +26,17 @@ public:
     }
 
     void push(const T& value) {
-        if (i_top_ + 1 >= size_) this->resize(size_ * 2 + 1);
+        if (i_top_ + 1 >= size_) resize(size_ * 2 + 1);
         data_[++i_top_] = value;
     }
 
     void pop() {
-        if (this->empty()) throw std::underflow_error("Stack is empty");
+        if (empty()) throw std::underflow_error("Stack is empty");
         --i_top_;
     }
 
     T& top() const {
-        if (this->empty()) throw std::underflow_error("Stack is empty");
+        if (empty()) throw std::underflow_error("Stack is empty");
         return data_[i_top_];
     }
 
@@ -56,12 +56,13 @@ public:
         data_ = newData;
         size_ = newSize;
         i_top_ = size_ - 1;
-        other.size_ = 0; // Устанавливаем размер other в 0, чтобы он стал пустым
-        other.i_top_ = -1; // Устанавливаем i_top_ other в -1, чтобы он стал пустым
+        other.size_ = 0;
+        other.i_top_ = -1;
+        other.data_ = nullptr;
     }
 
     [[nodiscard]] bool empty() const {
-        return size_ == 0; // Если размер стека равен 0, значит, он пуст
+        return size_ == 0;
     }
 
     [[nodiscard]] std::ptrdiff_t size() const {
@@ -106,9 +107,9 @@ public:
     }
 
 private:
-    std::ptrdiff_t size_;   //!< общий размер выделенного массива
-    std::ptrdiff_t i_top_; //!< индекс верхнего элемента
-    T* data_;   //!< элементы стека
+    std::ptrdiff_t size_;
+    std::ptrdiff_t i_top_;
+    T* data_;
 
     void resize(std::ptrdiff_t newSize) {
         if (newSize <= size_) return;
