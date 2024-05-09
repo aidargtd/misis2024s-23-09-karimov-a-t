@@ -56,9 +56,7 @@ public:
         data_ = newData;
         size_ = newSize;
         i_top_ = size_ - 1;
-        other.size_ = 0;
-        other.i_top_ = -1;
-        other.data_ = nullptr;
+        other.clear(); // Clear other stack
     }
 
     [[nodiscard]] bool empty() const {
@@ -67,6 +65,13 @@ public:
 
     [[nodiscard]] std::ptrdiff_t size() const {
         return i_top_ + 1;
+    }
+
+    void clear() {
+        delete[] data_;
+        size_ = 0;
+        i_top_ = -1;
+        data_ = nullptr;
     }
 
     bool operator==(const StackArrT<T>& rhs) const {
@@ -83,12 +88,8 @@ public:
 
     StackArrT<T>& operator=(const StackArrT<T>& rhs) noexcept {
         if (this != &rhs) {
-            T* newData = new T[rhs.size_];
-            std::copy(rhs.data_, rhs.data_ + rhs.size_, newData);
-            delete[] data_;
-            data_ = newData;
-            size_ = rhs.size_;
-            i_top_ = rhs.i_top_;
+            StackArrT<T> temp(rhs);
+            swap(temp);
         }
         return *this;
     }
