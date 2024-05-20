@@ -22,3 +22,6 @@ target_link_libraries(StackLstT_test StackLstT)
 
 add_executable(BinarySearchTree_test BinarySearchTree_test.cpp)
 target_link_libraries(BinarySearchTree_test BinarySearchTree)
+
+add_executable(HashTable_test HashTable_test.cpp)
+target_link_libraries(HashTable_test HashTable)
