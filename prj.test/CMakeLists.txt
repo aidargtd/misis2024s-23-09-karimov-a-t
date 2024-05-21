@@ -25,3 +25,6 @@ target_link_libraries(BinarySearchTree_test BinarySearchTree)
 
 add_executable(HashTable_test HashTable_test.cpp)
 target_link_libraries(HashTable_test HashTable)
+
+add_executable(CustomContainer_test CustomContainer_test.cpp)
+target_link_libraries(CustomContainer_test CustomContainer)
